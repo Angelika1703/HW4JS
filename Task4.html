@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title> Task 4 </title>
+      <script type="text/javascript">
+
+        //4.1. Работа со строками:
+        var a = 'I\'m'; // объявление переменной а
+        var b = 'a student'; // объявление переменной b
+        var c = a + ' ' + b; // объявление переменной с
+        console.log(c); // вывод на консоль
+
+        //4.2. Работа с числами:
+        var d = 4, e = 15;
+
+        console.log(d + e); //19
+
+        console.log(d - e); //-11
+        console.log(e - d); //11 
+
+        console.log(d * e); //60
+
+        console.log(d / e); //0,27
+        console.log(e / d); //3,75
+
+        console.log(d % e); //4
+        console.log(e % d); //3
+
+        console.log(d << e);
+        console.log(d >> e);
+        console.log(e << d);
+        console.log(e >> d);
+
+        //4.3. Работа с булевым типом:
+        console.log(8 < 4); //false
+        console.log(67 >= 50); //true
+        console.log('aBc' < 'AbC'); //false
+        console.log('0' === 0); //false
+        console.log('0' == 0); //true
+        console.log(!0); //true
+
+        //4.4. Работа со встроенными функциями confirm и prompt (*):
+        var t = confirm('True or false?');
+        console.log(t);// если "ОК" - выводит "true", если "Отмена" - "false"
+
+        var p = prompt('String or null?');
+        console.log(p);// если "ОК", то выводится введённый текст, если "Отмена" - "null"
+
+
+      </script>
+   </head>
+   <body>
+            <!--11.10.2017 Korsikova A.O.-->
+   </body>
+</html>
